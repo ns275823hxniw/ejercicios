@@ -1,6 +1,8 @@
 # ejercicios
 ejercicio 01
-int main() {
+int main() 
+
+{
   // Get the number of chickens, cows, and pigs from the user.
   int chickens, cows, pigs;
   cout << "Enter the number of chickens: ";
@@ -57,6 +59,7 @@ int main() {
 
   return 0;
 }
+
 ejercicio 3
 #include <iostream>
 
@@ -76,6 +79,8 @@ int main() {
   cout << "segundos: " << convert(hours, minutes) << endl;
   return 0;
 } 
+
+
 ejercicio 4
 #include <iostream>
 
@@ -93,8 +98,9 @@ int main() {
 
   return 0;
 }
-ejercicio 5 #include <iostream>
+ejercicio 5 
 
+#include <iostream>
 using namespace std;
 
 int calc_age(int age) {
