@@ -3,7 +3,7 @@ ejercicio 01
 int main() 
 
 {
-  // Get the number of chickens, cows, and pigs from the user.
+  
   int chickens, cows, pigs;
   cout << "Enter the number of chickens: ";
   cin >> chickens;
@@ -12,15 +12,15 @@ int main()
   cout << "Enter the number of pigs: ";
   cin >> pigs;
 
-  // Calculate the total number of legs for each type of animal.
+ 
   int chickenLegs = chickens * 2;
   int cowLegs = cows * 4;
   int pigLegs = pigs * 4;
 
-  // Calculate the total number of legs for all the animals.
+  
   int totalLegs = chickenLegs + cowLegs + pigLegs;
 
-  // Print the total number of legs.
+  
   cout << "The total number of legs is: " << totalLegs << endl;
 
   return 0;
@@ -29,22 +29,22 @@ int main()
 
     ejercicio 2
     #include <iostream>
-#include <algorithm> // Incluye la biblioteca <algorithm> para usar transform
+#include <algorithm> 
 
 using namespace std;
 
 int main() {
-  // Variable para almacenar la entrada del usuario
+  
   string entrada;
 
-  // Solicitar al usuario que ingrese true o false
+  
   cout << "Ingrese true o false: ";
   cin >> entrada;
 
-  // Convertir la entrada a minúsculas
+ 
   transform(entrada.begin(), entrada.end(), entrada.begin(), ::tolower);
 
-  // Invertir el valor de la entrada
+  
   string salida;
   if (entrada == "true") {
     salida = "false";
@@ -54,7 +54,7 @@ int main() {
     salida = "Entrada no válida";
   }
 
-  // Mostrar el resultado
+  
   cout << "Valor invertido: " << salida << endl;
 
   return 0;
